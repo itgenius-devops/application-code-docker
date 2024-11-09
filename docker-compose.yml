@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  itgenuine-container:
+  itgenius-container:
     image: itgeniusdevops/itgenius-app-project-repo:v001
     container_name: itgenius
     ports:
