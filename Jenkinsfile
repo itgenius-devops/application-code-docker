@@ -10,7 +10,7 @@ pipeline {
         stage('Git') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/itgenius-devops/application-code.git'
+                url: 'https://github.com/itgenius-devops/application-code-docker.git'
             }
         }
 
